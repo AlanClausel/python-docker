@@ -1,0 +1,11 @@
+{
+    "nombre": "Pepe",
+    "edad": 45,
+    "ciudad": "Argento",
+    "casado": true,
+    "hobbies": ["descansar", "comer"],
+    "direccion": {
+      "calle": "calle 404",
+      "ciudad": "Buenos Aires"
+    }
+  }

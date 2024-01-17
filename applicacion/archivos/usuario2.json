@@ -1,0 +1,11 @@
+{
+    "nombre": "Rocio",
+    "edad": 26,
+    "ciudad": "Herbas",
+    "casado": false,
+    "hobbies": ["romance", "cine", "cocinar"],
+    "direccion": {
+      "calle": "calle 123",
+      "ciudad": "Misiones"
+    }
+  }

@@ -1,0 +1,12 @@
+{
+    "nombre": "Alan",
+    "edad": 29,
+    "ciudad": "Clausel",
+    "casado": false,
+    "hobbies": ["lectura", "peliculas", "programación"],
+    "direccion": {
+      "calle": "calle falsa",
+      "ciudad": "Buenos Aires"
+    }
+  }
+  
