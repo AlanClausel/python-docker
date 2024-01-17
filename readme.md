@@ -32,17 +32,30 @@ En el directorio de tu proyecto, encontrarás una carpeta llamada "Vagrant". Est
 
 ## Ejecucion Dockerfile
 
+### Forma Manual
+
 1. **Dockerfile**: Es necesario un dockerfile para la construccion de la imagen, en este repositorio se encuentra el de este proyecto
 
 2. **Construccion imagen**: Ejecuta el siguiente comando dentro del directorio donde se encuentre el "Dockerfile"
     ```bash
-   docker build -t pythonapp .
+   docker build -t pythonapp-images .
    ```
 
 3. **Ejecución docker**: Ejecute el siguiente comando con la imagen creada anteriormente para ejecutar el contenedor
     ```bash
-   docker run -p 5000:5000 pythonapp
+   docker run -p 5000:5000 --name pythonapp-container pythonapp-images
    ```
+
+### Forma con script.sh de ejecucion
+
+Este script permite ejecutar el docker de forma "automatica", crea la imagen y ejecuta el container, si el container esta creado lo elimina
+
+1. **Ejecución script.sh**: 
+Dirigirse al directorio donde se encuentra el script y ejecutar el comando
+    ```bash
+   ./script.sh
+   ```
+
 
 ## Ejecucion del microservicio
 
