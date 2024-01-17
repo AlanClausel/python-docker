@@ -36,7 +36,7 @@ En el directorio de tu proyecto, encontrarás una carpeta llamada "Vagrant". Est
 
 2. **Construccion imagen**: Ejecuta el siguiente comando dentro del directorio donde se encuentre el "Dockerfile"
     ```bash
-   docker build -t pythonApp .
+   docker build -t pythonapp .
    ```
 
 3. **Ejecución docker**: Ejecute el siguiente comando con la imagen creada anteriormente para ejecutar el contenedor
@@ -46,7 +46,7 @@ En el directorio de tu proyecto, encontrarás una carpeta llamada "Vagrant". Est
 
 ## Ejecucion del microservicio
 
-En este punto hace referencia a hacer los puntos solicitadas en el desafio, los siguientes son 3 metodos HTTP 
+En este punto hace referencia a hacer los puntos solicitados en el desafio, los siguientes son 3 metodos HTTP 
 
 1. **POST: Solicitar un archivo**  
 
